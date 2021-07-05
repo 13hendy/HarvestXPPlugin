@@ -1,0 +1,10 @@
+# Project exclude paths
+out/
+target/
+.idea/
+
+# Jar file related folders
+META-INF/
+
+# All intellij files
+*.iml

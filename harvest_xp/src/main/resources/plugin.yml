@@ -1,0 +1,21 @@
+name: "harvest_xp"
+main: "com.patelheet30.mcplugins.harvestxp.HarvestXPPlugin"
+version: "1.13.0"
+api-version: "1.16"
+author: "BitLong"
+website: "https://github.com/JasonMacKeigan/mcplugins/tree/master/harvest_xp/"
+commands:
+  harvest:
+    description: "Change config values for the harvest_xp plugin"
+    usage: "/harvest <attribute> <value>"
+    permission: "harvestxp.config"
+
+  harvest_config:
+    description: "Read all properties from the harvest config"
+    usage: "/harvest_config"
+    permission: "harvestxp.config"
+
+permissions:
+  harvestxp.config:
+    description: "Allows the user to modify harvest_xp configuration values."
+    default: "op"
