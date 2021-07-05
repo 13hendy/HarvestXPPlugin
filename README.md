@@ -4,3 +4,11 @@ This plugin allows a user to collect xp from crops such as potatoes, melons etc.
  
 
 Jason MacKeigan: https://github.com/JasonMacKeigan
+
+## How to build:
+
+Download the file and unzip until you get a folder. Then open up terminal. Direct your way towards the folder, for example, for MacOS if it was saved in Desktop, you would do cd desktop and then cd HarvestXPPlugin. Then run the command mvn install. Ensure you have Apache Maven installed on your computer/laptop. 
+
+## Spigot
+
+Spigot link coming soon.
